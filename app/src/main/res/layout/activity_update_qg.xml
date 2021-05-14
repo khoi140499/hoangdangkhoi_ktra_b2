@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateQG">
+    <EditText
+        android:id="@+id/txthoten_update"
+        android:textSize="22dp"
+        android:hint="nhap ho ten "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/spthanhpho_update"
+        android:textSize="22dp"
+        android:hint="thanh pho"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <EditText
+        android:id="@+id/txtDate_update"
+        android:textSize="22dp"
+        android:hint="ngay thang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/txtsotien_update"
+        android:textSize="22dp"
+        android:hint="so tien"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnUpdate"
+        android:text="Cap nhat"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+    <Button
+        android:id="@+id/btnDelete"
+        android:text="Xoa"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+    <Button
+        android:id="@+id/btnBack1"
+        android:text="Tro ve"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+</LinearLayout>
